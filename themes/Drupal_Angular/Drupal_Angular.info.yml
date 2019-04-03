@@ -124,7 +124,7 @@ regions:
   page_bottom: 'Page bottom'
 
 # Information added by Drupal.org packaging script on 2016-06-02
-version: '1.0'
+version: '8.x-7.0-alpha14'
 core: '8.x'
 project: 'zen'
 datestamp: 1464881363
