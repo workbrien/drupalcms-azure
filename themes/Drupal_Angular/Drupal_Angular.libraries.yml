@@ -11,8 +11,6 @@ base:
       # separate print stylesheets is bad for front-end performance.
       components/asset-builds/css/base.css: {}
   # If this library had JavaScript you could specify it like this:
-  js:
-    js/script.js: {}
   dependencies:
     - Drupal_Angular/clearfix
     - Drupal_Angular/visually-hidden
@@ -22,6 +20,8 @@ layouts:
     # The SMACSS category, "layout", is loaded after "base" styles.
     layout:
       components/asset-builds/css/layouts.css: {}
+  js:
+    js/script.js: {}
 
 autocomplete:
   css:
