@@ -10,14 +10,25 @@ base:
       # specifying: { media: print } Note: this isn't recommended since
       # separate print stylesheets is bad for front-end performance.
       components/asset-builds/css/base.css: {}
+  # If this library had JavaScript you could specify it like this:
+  # js:
+  #   js/script.js: {}
+  dependencies:
     - Drupal_Angular/clearfix
     - Drupal_Angular/visually-hidden
+
 
 scripts:
   # If this library had JavaScript you could specify it like this:
   js:
     js/script.js: {}
   dependencies:
+    - core/jquery
+
+global-scripts:
+  version: 1.x
+  js: 
+    js/script.js: {}
 
 layouts:
   css:
