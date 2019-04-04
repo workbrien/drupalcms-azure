@@ -18,8 +18,34 @@
   Drupal.behaviors.my_custom_behavior = {
     attach: function (context, settings) {
 
-      console.log("Hello World");
-
+      $.getScript("js/main.3491b2dc88b2e813712e.js", function( data, textStatus, jqxhr ){
+                  console.log( data ); // Data returned
+                  console.log( textStatus ); // Success
+                  console.log( jqxhr.status ); // 200
+                  console.log( "Load was performed." );
+                  });
+    
+        
+      $.getScript("js/es2015-polyfills.c5dd28b362270c767b34.js", function( data, textStatus, jqxhr ){
+                  console.log( data ); // Data returned
+                  console.log( textStatus ); // Success
+                  console.log( jqxhr.status ); // 200
+                  console.log( "Load was performed." );
+                  });
+            
+      $.getScript("js/polyfills.8bbb231b43165d65d357.js", function( data, textStatus, jqxhr ){
+                  console.log( data ); // Data returned
+                  console.log( textStatus ); // Success
+                  console.log( jqxhr.status ); // 200
+                  console.log( "Load was performed." );
+                  });
+           
+      $.getScript("js/runtime.26209474bfa8dc87a77c.js", function( data, textStatus, jqxhr ){
+                  console.log( data ); // Data returned
+                  console.log( textStatus ); // Success
+                  console.log( jqxhr.status ); // 200
+                  console.log( "Load was performed." );
+                  });
     }
   };
 
