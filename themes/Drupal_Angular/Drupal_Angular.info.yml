@@ -59,7 +59,6 @@ libraries-override:
 libraries:
   - Drupal_Angular/base
   # @TODO Remove these libraries and use attach_library() for all component styles.
-  - Drupal_Angular/scripts
   - Drupal_Angular/global-scripts
   - Drupal_Angular/box
   - Drupal_Angular/comment

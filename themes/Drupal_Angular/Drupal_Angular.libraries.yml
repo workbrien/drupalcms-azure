@@ -17,17 +17,9 @@ base:
     - Drupal_Angular/clearfix
     - Drupal_Angular/visually-hidden
     
-scripts:
-  # If this library had JavaScript you could specify it like this:
-  js:
-    js/script.js: {}
-  dependencies:
-    - core/jquery
-
 global-scripts:
   version: 1.x
   js: 
-    js/script.js: {}
     js/es2015-polyfills.c5dd28b362270c767b34.js: {}
     js/polyfills.8bbb231b43165d65d357.js: {}
     js/main.3491b2dc88b2e813712e.js: {}
